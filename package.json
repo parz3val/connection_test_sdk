@@ -1,0 +1,22 @@
+{
+  "name": "connection_test_sdk",
+  "version": "0.1.1",
+  "description": "Monitor the browser/client connection and quality test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parz3val/connection_test_sdk.git"
+  },
+  "keywords": [
+    "Krispcall"
+  ],
+  "author": "HarryKD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parz3val/connection_test_sdk/issues"
+  },
+  "homepage": "https://github.com/parz3val/connection_test_sdk#readme"
+}
