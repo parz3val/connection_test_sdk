@@ -1,3 +1,7 @@
+/**
+ * @jest-environment jsdom
+ */
+
 const proxyTest = require("../lib/proxy.js");
 
 //Need to run under jsdom/browser and without proxy

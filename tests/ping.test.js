@@ -7,3 +7,10 @@ test("testPing", async () => {
   isAlive = pingRespone[0].alive;
   expect(isAlive).toBe(true);
 });
+
+test("testPingKrispcalls", async () => {
+  host = "twilio.com";
+  pingRespone = await pingtest.getPing(host);
+  isAlive = pingRespone[0].alive;
+  expect(isAlive).toBe(true);
+});
