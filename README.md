@@ -18,3 +18,6 @@ Returns a hashmap`{}`after running a suite of tests
 1. Twilio RTC diagnositics sdk
 2. Node event emitter
 3. Ping
+
+4. `ping` -> `npm install ping`
+5. `xhr2` -> `npm install xhr2`

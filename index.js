@@ -1,6 +1,6 @@
 // Entrypoint in the package
-import { ipTest } from "./lib/network.js";
-import { Connectivity } from "./lib/connectivity.js";
+const ipTest = require("./lib/network.js");
+const Connectivity = require("./lib/connectivity.js");
 
 module.exports = {
   ipTest,
