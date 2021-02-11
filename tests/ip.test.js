@@ -7,3 +7,12 @@ test("testIPLocation", async () => {
   code = json.countryCode;
   expect(code).toBe("NP");
 });
+//
+// Test the If user is on vpn
+test("testIF on VPN", async () => {
+  resp = await ipTest.detectVPN("202.51.80.116");
+  json = resp[0];
+  code = json.vpn;
+  console.log(json);
+  expect(code).toBe(false);
+});
