@@ -11,6 +11,7 @@ test("testPing", async () => {
 test("testPingKrispcalls", async () => {
   host = "twilio.com";
   pingRespone = await pingtest.getPing(host);
+  console.log(pingRespone);
   isAlive = pingRespone[0].alive;
   expect(isAlive).toBe(true);
 });
