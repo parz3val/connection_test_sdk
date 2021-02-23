@@ -11,7 +11,7 @@ test("testIPLocation", async () => {
 //
 // Test the If user is on vpn
 test("testIF on VPN", async () => {
-  resp = await ipTest.detectVPN("202.51.80.116");
+  resp = await ipTest.detectVPN("202.51.80.116",process.env.QUALITY_IP_API_KEY);
   json = resp[0];
   code = json.vpn;
   console.log(json);
